@@ -1,0 +1,32 @@
+.navbar {
+    display: inline-flex;
+    width: 100%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.navbar li{
+    float: right;
+    padding-right: 15%;
+    padding-left: 1%;
+    font-size: 24px;
+    font-family: Verdana;
+}
+
+.navbar ul{
+    margin-left: 40%;
+    padding-top: 1%;
+    display: inline-flex;
+}
+
+.navbar h1{
+    margin-left: 1%;
+}
+
+body {
+    background: url("/assets/banner.jpg");
+}
