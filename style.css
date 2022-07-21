@@ -1,4 +1,5 @@
 .navbar {
+    position: inherit;
     display: inline-flex;
     width: 99%;
     background: rgba( 255, 255, 255, 0.25 );
@@ -43,7 +44,7 @@ body {
 }
 
 .conteudoSobre {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 30%;
     width: 40%;
     background: rgba( 126, 211, 33, 0.25 );
@@ -66,4 +67,47 @@ body {
 .conteudoSobre li{
     text-align: center;
     list-style-type: none;
+    margin-left: -7%;
+}
+
+.politicaPrivacidade {
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 40%;
+    background: rgba( 126, 211, 33, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.politicaPrivacidade h3 {
+    text-align: center;
+}
+
+.politicaPrivacidade:hover {
+    border-radius: 12px;
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.termosUso {
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 40%;
+    background: rgba( 126, 211, 33, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.termosUso h3 {
+    text-align: center;
+}
+
+.termosUso:hover {
+    border-radius: 12px;
+    border: 2px solid rgba( 255, 255, 255, 0.18 );
 }
