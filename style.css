@@ -1,5 +1,7 @@
 .navbar {
-    position: inherit;
+    position: fixed;
+    z-index: 2;
+    top: 0.9%;
     display: inline-flex;
     width: 99%;
     background: rgba( 255, 255, 255, 0.25 );
@@ -44,7 +46,7 @@ body {
 }
 
 .conteudoSobre {
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 30%;
     width: 40%;
     background: rgba( 126, 211, 33, 0.25 );
@@ -104,6 +106,10 @@ body {
 }
 
 .termosUso h3 {
+    text-align: center;
+}
+
+.termosUso p {
     text-align: center;
 }
 
